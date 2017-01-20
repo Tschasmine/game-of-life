@@ -28,16 +28,12 @@ public class Main {
         System.out.println(grid.toString());
         System.out.println("\n");
 
-        grid.nextGeneration();
-        System.out.println(grid.toString());
-        System.out.println("\n");
+        for (int i = 0; i < 50; i++) {
+            grid.nextGeneration();
+            System.out.println(grid.toString());
+            System.out.println("\n");
+        }
 
-        grid.nextGeneration();
-        System.out.println(grid.toString());
-        System.out.println("\n");
-
-        grid.nextGeneration();
-        System.out.println(grid.toString());
     }
 
 }
